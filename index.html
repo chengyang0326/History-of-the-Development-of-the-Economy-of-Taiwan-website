@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>History of the Development of the Economy of Taiwan</title>
+    <meta
+      name="description"
+      content="This website introduce the history of the development of the economy of Taiwan"
+    />
+    <!--google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+AU+NSW:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+    ></script>
+    <script type="text/javascript">
+      google.charts.load("current", { packages: ["corechart"] });
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ["Year", "GDP"],
+          ["1960", 34394],
+          ["1965", 114762],
+          ["1970", 231397],
+          ["1975", 601778],
+          ["1980", 1522459],
+          ["1980", 2535056],
+          ["1990", 4474288],
+          ["1995", 7391062],
+          ["2000", 10328549],
+          ["2005", 12036675],
+          ["2010", 14060345],
+        ]);
+
+        var options = {
+          title: "GDP of Taiwan",
+          curveType: "function",
+          legend: { position: "bottom" },
+        };
+
+        var chart = new google.visualization.LineChart(
+          document.getElementById("curve_chart")
+        );
+
+        chart.draw(data, options);
+      }
+    </script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./icon/twicon.css" />
+    <link rel="shortcut icon" href="./taiwanIcon.png" />
+    <link rel="bookmark" href="./taiwanIcon.png" />
+    <link rel="icon" href="./taiwanIcon.png" />
+  </head>
+
+  <body>
+    <!--Header-->
+    <header>
+      <h1 class="title">
+        <i class="twicon-main-island"></i>History of the Development of the
+        Economy of Taiwan
+      </h1>
+      <h3 class="subtitle">
+        History of the Development of the Economy of Taiwan in the recent 70
+        years and relative police
+      </h3>
+    </header>
+    <!--Nav bar -->
+    <nav>
+      <ul>
+        <li>
+          <a class="active" href="./index.html"
+            ><i class="twicon-main-island"></i> Home</a
+          >
+        </li>
+        <li>
+          <a href="./agriculture.html"
+            ><i class="twicon-lovers-brg"></i> Agricultural Reformation</a
+          >
+        </li>
+        <li>
+          <a href="./industry.html"
+            ><i class="twicon-nt-mus"></i> Industrial Reformation</a
+          >
+        </li>
+        <li>
+          <a href="./about.html"><i class="twicon-black-bear"></i> About Me</a>
+        </li>
+      </ul>
+    </nav>
+    <!--Main content-->
+    <main>
+      <section class="left">
+        <p>
+          Taiwan is an island in the Pacific Ocean. Today, different groups of
+          people live on this island, including Fujian, Hakka, Chinese from
+          other provinces, Taiwanese aborigines, and Southeast Asian immigrants.
+          Before World War II, Taiwan was a colony of Japan. In 1895, due to the
+          failure of the First Anti-Japanese War, China gave Taiwan, the
+          Liaodong Peninsula, and other places to Japan. After World War II, the
+          government of the Republic of China moved to Taiwan and began to build
+          the island. When the government of the Republic of China arrived in
+          Taiwan in 1949, Nearly 2 million soldiers and their families also
+          moved to Taiwan. When the government of the Republic of China arrived
+          in Taiwan at that time, there were many things to be solved. When
+          World War II ended in 1945, Taiwan's economic and sanitary conditions
+          were very low. The Republic of China government had a major impact on
+          Taiwan's development, transforming the economy from an agricultural
+          entity to a high-tech industry. During the 1960s to 1980s, a series of
+          serious new policies and development plans industrialized Taiwan. The
+          National Bureau of Statistics of Taiwan stated that in 1965, the GDP
+          per capita was US$229, and 30 years later, in 1984, the GDP per capita
+          increased to US$3,225.
+        </p>
+
+        <br />
+        <p>
+          When the R.O.C. government arrived in Taiwan, the first thing they did
+          was a series of land policies. First, they amended the law to reduce
+          the connection with the Chinese law system, and then issued the Taiwan
+          dollar. After that, they established many rules for farmers so that
+          they could be self-sufficient. The second step to improve the economic
+          situation was to develop "light industry". The government began to
+          help build small factories to produce textiles, shoes and paper. This
+          helped Taiwan prepare to move to "heavy industry". To stimulate
+          investment, the government encouraged investors from all over the
+          world to build factories in Taiwan ports. This time is the third step
+          of development. This website will discuss what happened in Taiwan, the
+          policies and changes in Taiwan and who came to help and make all of
+          these things work.
+        </p>
+        <div id="curve_chart" style="width: 900px; height: 500px"></div>
+        <!-- <img src="./res/taiwanIcon.png" alt="" /> -->
+      </section>
+      <section class="right">
+        <h4>Taiwan's economic development: Do you know where Taiwan is?</h4>
+        <br />
+        <p>
+          Taiwan is a small island in the Pacific Ocean. It is adjacent to
+          China, and the aborigines on the island are considered to be the
+          origin of the Austronesian people of the Pacific Islands. Taiwan's
+          land area is 13,972 kilometers, and there are about 23.8 million
+          people living on the island. The main common languages ​​are Chinese,
+          Minnan, and Hakka.
+        </p>
+        <br />
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231262.6859302688!2d121.39668999991265!3d25.085626051281075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ac6b61dbbd8b%3A0xbcd1baad5c06a482!2z5Y-w5rm-5Y-w5YyX5biC!5e0!3m2!1szh-CN!2sus!4v1719085331233!5m2!1szh-CN!2sus"
+          width="250"
+          height="250"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+    </main>
+  </body>
+</html>
